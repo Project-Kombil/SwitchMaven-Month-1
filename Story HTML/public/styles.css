@@ -1,0 +1,80 @@
+body{
+    background-image: url(wallpaper.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 105% -15%;
+    
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.ducko-img {
+    position: relative;
+    overflow: show;
+}
+
+.ducko-img img {
+    position:absolute;
+    left: 10px;
+    top: -20px;
+    width: 100px;
+    height: auto;
+    opacity: 0.5;
+    z-index: -99;
+}
+
+
+.index-flex{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.index-flex img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.index-flex img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-3px);
+}
+
+
+
+.index-ducky{
+    flex: auto;
+}
+
+
+.ducky-intro{
+    display: flex;
+    flex-direction: row;
+}
+
+.ducky-intro p{
+    width: 400px;
+    margin: 10px;
+}
+
+/* Duckoo */
+.index-duckoo{
+    flex: auto;
+}
+
+
+.duckoo-intro{
+    display: flex;
+    flex-direction: row;
+}
+
+.duckoo-intro p{
+    width: 400px;
+    margin: 10px;
+}
